@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/my-thread-pool/pom.xml" />
         <option value="$PROJECT_DIR$/my-lambda/pom.xml" />
+        <option value="$PROJECT_DIR$/my-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/my-mq/pom.xml" />
       </list>
     </option>
   </component>
