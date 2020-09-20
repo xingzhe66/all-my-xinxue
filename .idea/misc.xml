@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/my-proxy/pom.xml" />
         <option value="$PROJECT_DIR$/my-mq/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/my-io/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alltechnology" />
+        <module name="my-io" />
         <module name="my-lambda" />
         <module name="my-mq" />
         <module name="my-proxy" />
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-io" options="-parameters" />
       <module name="my-lambda" options="-parameters" />
       <module name="my-mq" options="-parameters" />
       <module name="my-proxy" options="-parameters" />
