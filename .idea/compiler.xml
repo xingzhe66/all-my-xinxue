@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alltechnology" />
+        <module name="my-consumer" />
+        <module name="my-eureka" />
         <module name="my-io" />
         <module name="my-lambda" />
         <module name="my-mq" />
@@ -18,6 +20,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-consumer" options="-parameters" />
+      <module name="my-eureka" options="-parameters" />
       <module name="my-io" options="-parameters" />
       <module name="my-lambda" options="-parameters" />
       <module name="my-mq" options="-parameters" />
