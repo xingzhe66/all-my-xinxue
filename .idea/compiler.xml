@@ -12,6 +12,7 @@
         <module name="my-io" />
         <module name="my-lambda" />
         <module name="my-mq" />
+        <module name="my-provider-1" />
         <module name="my-proxy" />
         <module name="my-socket" />
         <module name="my-thread-pool" />
@@ -25,6 +26,7 @@
       <module name="my-io" options="-parameters" />
       <module name="my-lambda" options="-parameters" />
       <module name="my-mq" options="-parameters" />
+      <module name="my-provider-1" options="-parameters" />
       <module name="my-proxy" options="-parameters" />
       <module name="my-socket" options="-parameters" />
       <module name="my-thread-pool" options="-parameters" />
