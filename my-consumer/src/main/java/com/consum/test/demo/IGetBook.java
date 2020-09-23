@@ -1,5 +1,9 @@
 package com.consum.test.demo;
 
+import com.consum.test.demo.service.UserInfo;
+
+import java.util.List;
+
 /**
  * @author sunlonglong
  * 22:29
@@ -8,5 +12,5 @@ package com.consum.test.demo;
 public interface IGetBook {
 
     static final String MY_BOOK = "MY/BOOK";
-    String getBook();
+    List<UserInfo> getBook();
 }

@@ -27,11 +27,11 @@ public class MyDaoSupport extends SqlSessionDaoSupport implements UserInfoMapper
 
     @Override
     public int insert(UserInfo record) {
-        return 0;
+        return this.getSqlSession().insert(record.getClass().getName()+".insert",record);
     }
 
     @Override
     public <T> List<T> selectAll(T t) {
-        return this.getSqlSession().selectList(t.getClass()+"selectAll",t);
+        return this.getSqlSession().selectList(t.getClass().getName()+".selectAll",t);
     }
 }

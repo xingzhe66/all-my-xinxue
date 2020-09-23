@@ -1,0 +1,20 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: my-provider-1
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/sun
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+

@@ -2,10 +2,13 @@ package com.consum.test.demo.bc;
 
 import com.consum.test.demo.IGetBook;
 import com.consum.test.demo.bs.GetBookService;
+import com.consum.test.demo.service.UserInfo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author sunlonglong
@@ -15,12 +18,12 @@ import javax.annotation.Resource;
 @RestController
 public class Handler implements IGetBook {
 
-    @Resource
+    @Autowired
     private GetBookService getBookService;
 
     @Override
     @RequestMapping(value=MY_BOOK)
-    public String getBook() {
+    public List<UserInfo> getBook() {
         return getBookService.getBook();
     }
 }
