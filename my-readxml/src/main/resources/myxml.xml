@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?>
+<RESULT>
+    <BOOK>
+        <NAME>java开发</NAME>
+        <PRICE>99</PRICE>
+        <NUM>10</NUM>
+    </BOOK>
+    <BOOK>
+        <NAME>资治通鉴</NAME>
+        <PRICE>200</PRICE>
+        <NUM>20</NUM>
+    </BOOK>
+    <BOOK>
+        <NAME>传奇</NAME>
+        <PRICE>123</PRICE>
+        <NUM>10</NUM>
+    </BOOK>
+</RESULT>
