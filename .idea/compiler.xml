@@ -14,6 +14,7 @@
         <module name="my-mq" />
         <module name="my-provider-1" />
         <module name="my-proxy" />
+        <module name="my-readxml" />
         <module name="my-socket" />
         <module name="my-thread-pool" />
       </profile>
@@ -28,6 +29,7 @@
       <module name="my-mq" options="-parameters" />
       <module name="my-provider-1" options="-parameters" />
       <module name="my-proxy" options="-parameters" />
+      <module name="my-readxml" options="-parameters" />
       <module name="my-socket" options="-parameters" />
       <module name="my-thread-pool" options="-parameters" />
     </option>

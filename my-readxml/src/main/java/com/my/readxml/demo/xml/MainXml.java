@@ -15,6 +15,7 @@ import java.util.Iterator;
 public class MainXml {
     public static void main(String[] args) throws Exception {
 
+        // dom4j最好的读取方式
         File f= new File("D:\\programe\\alltechnology\\my-readxml\\src\\main\\resources\\myxml.xml");
         if(!f.exists()){
             System.out.println("配置文件不存在");
