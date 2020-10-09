@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/my-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/my-provider-1/pom.xml" />
         <option value="$PROJECT_DIR$/my-readxml/pom.xml" />
+        <option value="$PROJECT_DIR$/my-provider-2/pom.xml" />
       </list>
     </option>
   </component>

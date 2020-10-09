@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ba.my.myprovider2.po.UserInfo" >
+  <resultMap id="BaseResultMap" type="com.ba.my.myprovider2.po.UserInfo" >
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="AGE" property="age" jdbcType="INTEGER" />
+    <result column="ADDRESS" property="address" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.ba.my.myprovider2.po.UserInfo" >
+    insert into user_info (`NAME`, AGE, ADDRESS
+      )
+    values (#{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}, #{address,jdbcType=VARCHAR}
+      )
+  </insert>
+  <select id="selectAll" parameterType="com.ba.my.myprovider2.po.UserInfo" resultMap="BaseResultMap" >
+    select `NAME`, AGE, ADDRESS
+    from user_info
+  </select>
+</mapper>

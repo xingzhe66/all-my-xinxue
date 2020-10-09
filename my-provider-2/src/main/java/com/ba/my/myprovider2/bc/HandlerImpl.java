@@ -1,13 +1,12 @@
-package com.provider.my.bc;
+package com.ba.my.myprovider2.bc;
 
-import com.provider.my.bs.InforService;
-import com.provider.my.inter.IGetInfor;
-import com.provider.my.po.UserInfo;
+import com.ba.my.myprovider2.bs.InforService;
+import com.ba.my.myprovider2.inter.IGetInfor;
+import com.ba.my.myprovider2.po.UserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -22,13 +21,13 @@ public class HandlerImpl implements IGetInfor {
     private InforService inforService;
 
     @Override
-    @RequestMapping(value="info/of/book")
+    @RequestMapping(value = "info/of/book")
     public List<UserInfo> getInfo(UserInfo u) {
         UserInfo u1 = new UserInfo();
         u1.setAddress("土耳其");
         u1.setAge(12);
         u1.setName("特朗普");
-        System.out.println("my-provider-1====执行");
+        System.out.println("my-provider-2====执行");
         return inforService.getInfo(u1);
     }
 }
