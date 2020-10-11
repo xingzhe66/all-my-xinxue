@@ -9,6 +9,7 @@
         <module name="alltechnology" />
         <module name="my-consumer" />
         <module name="my-eureka" />
+        <module name="my-gateway" />
         <module name="my-io" />
         <module name="my-lambda" />
         <module name="my-mq" />
@@ -25,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="my-consumer" options="-parameters" />
       <module name="my-eureka" options="-parameters" />
+      <module name="my-gateway" options="-parameters" />
       <module name="my-io" options="-parameters" />
       <module name="my-lambda" options="-parameters" />
       <module name="my-mq" options="-parameters" />
