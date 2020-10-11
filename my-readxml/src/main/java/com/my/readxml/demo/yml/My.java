@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * 境由心生,事在人为
  */
 @Component
-@ConfigurationProperties(prefix = "my")
+@ConfigurationProperties(prefix = "test.my")
 public class My {
 
     private String name;

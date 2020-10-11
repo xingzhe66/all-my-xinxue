@@ -1,8 +1,9 @@
-my:
-  name: sunlonglong
-  age: 22
-  hobby: 吃饭，喝水，睡觉
-  job: soft-master
+test:
+  my:
+   name: sunlonglong
+   age: 22
+   hobby: 吃饭，喝水，睡觉
+   job: soft-master
 server:
   port: 9090
 
