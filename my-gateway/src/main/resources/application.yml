@@ -13,7 +13,9 @@ spring:
         uri: lb://my-consumer  #lb 后面需要跟上服务名称，去注册中心寻找服务对应的uri
         order: 9999
         predicates:
-        - Path=/my/**
+        - Path=/my/** cxwq4 4
+        - 519
+        - 4
         filters:
         - StripPrefix=1
 
