@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="089ca882-46bd-4de6-9f9a-53042616998d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ConsumeBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/PraviderBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ShuJia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-other/src/main/java/com/other/demo/Mainclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/my-socket/target/" />
     <ignored path="$PROJECT_DIR$/my-tree/target/" />
     <ignored path="$PROJECT_DIR$/my-json/target/" />
+    <ignored path="$PROJECT_DIR$/my-other/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ConsumeBook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -59,19 +59,28 @@
         <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/PraviderBook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ShuJia.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ShuJia.java">
+        <entry file="file://$PROJECT_DIR$/my-other/src/main/java/com/other/demo/Mainclass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -108,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/MyConsumerApplication.java" />
         <option value="$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/MyProviderApplication.java" />
         <option value="$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/service/IService.java" />
         <option value="$PROJECT_DIR$/my-provider-1/src/main/resources/mappers/UserInfoMapper.xml" />
@@ -159,6 +167,7 @@
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/PraviderBook.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/MainClass.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ShuJia.java" />
+        <option value="$PROJECT_DIR$/my-other/src/main/java/com/other/demo/Mainclass.java" />
       </list>
     </option>
   </component>
@@ -207,47 +216,37 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="my-other" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="my-other" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="my-other" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="my-other" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="my-other" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="tongXun" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +262,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610797849280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610799143224" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -295,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass (2)">
+  <component name="RunManager" selected="Application.Mainclass">
     <configuration name="FileClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.file.io.cn.myio.io.FileClass" />
       <module name="my-io" />
@@ -348,15 +347,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.file.io.cn.myio.io.print" />
-      <module name="my-io" />
+    <configuration name="Mainclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.other.demo.Mainclass" />
+      <module name="my-other" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.file.io.cn.myio.io.*" />
+          <option name="PATTERN" value="com.other.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-other" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.other.demo.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -482,11 +488,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mainclass" />
         <item itemvalue="Application.MainClass (2)" />
         <item itemvalue="Application.MainClass (1)" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.FileClass" />
-        <item itemvalue="Application.print" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +540,7 @@
       <workItem from="1605014038730" duration="3851000" />
       <workItem from="1609237952991" duration="6140000" />
       <workItem from="1610019842247" duration="986000" />
-      <workItem from="1610793091623" duration="4538000" />
+      <workItem from="1610793091623" duration="5811000" />
     </task>
     <task id="LOCAL-00001" summary="#技术整理">
       <created>1598000767199</created>
@@ -704,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610793275321</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="#json操作">
+      <created>1610797880417</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610797880417</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -737,7 +750,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142723000" />
+    <option name="totallyTimeSpent" value="143996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +776,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5283286" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.776204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -773,7 +786,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -897,7 +910,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/SpringBOOT/ModelBank_jar/r1/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class" />
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1094,7 +1106,7 @@
     <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ConsumeBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1108,17 +1120,24 @@
     <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/PraviderBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ShuJia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="349">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-other/src/main/java/com/other/demo/Mainclass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
