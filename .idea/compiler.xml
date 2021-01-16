@@ -10,6 +10,7 @@
         <module name="all-my-xinxue" />
         <module name="all-technology" />
         <module name="alltechnology" />
+        <module name="code" />
         <module name="demo (1) (com.consum.test)" />
         <module name="demo (2) (com.provider.my)" />
         <module name="demo (3) (com.my.readxml)" />
@@ -17,6 +18,7 @@
         <module name="my-eureka" />
         <module name="my-gateway" />
         <module name="my-io" />
+        <module name="my-json" />
         <module name="my-lambda" />
         <module name="my-mq" />
         <module name="my-provider-1" />
@@ -38,6 +40,7 @@
       <module name="my-eureka" options="-parameters" />
       <module name="my-gateway" options="-parameters" />
       <module name="my-io" options="-parameters" />
+      <module name="my-json" options="-parameters" />
       <module name="my-lambda" options="-parameters" />
       <module name="my-mq" options="-parameters" />
       <module name="my-provider-1" options="-parameters" />

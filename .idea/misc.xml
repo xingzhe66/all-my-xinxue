@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/my-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/my-socket/pom.xml" />
         <option value="$PROJECT_DIR$/my-tree/pom.xml" />
+        <option value="$PROJECT_DIR$/my-json/pom.xml" />
       </list>
     </option>
   </component>

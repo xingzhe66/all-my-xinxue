@@ -5,8 +5,8 @@
     <file url="file://$PROJECT_DIR$/my-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-lambda" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/my-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-provider-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-provider-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-proxy" charset="UTF-8" />
