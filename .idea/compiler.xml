@@ -11,6 +11,7 @@
         <module name="all-technology" />
         <module name="alltechnology" />
         <module name="code" />
+        <module name="demo" />
         <module name="demo (1) (com.consum.test)" />
         <module name="demo (2) (com.provider.my)" />
         <module name="demo (3) (com.my.readxml)" />
@@ -26,6 +27,7 @@
         <module name="my-provider-2" />
         <module name="my-proxy" />
         <module name="my-readxml" />
+        <module name="my-redis" />
         <module name="my-socket" />
         <module name="my-thread-pool" />
         <module name="my-tree" />
@@ -34,6 +36,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="demo (1) (com.consum.test)" options="-parameters" />
       <module name="demo (2) (com.provider.my)" options="-parameters" />
       <module name="demo (3) (com.my.readxml)" options="-parameters" />
@@ -49,6 +52,7 @@
       <module name="my-provider-2" options="-parameters" />
       <module name="my-proxy" options="-parameters" />
       <module name="my-readxml" options="-parameters" />
+      <module name="my-redis" options="-parameters" />
       <module name="my-socket" options="-parameters" />
       <module name="my-thread-pool" options="-parameters" />
       <module name="my-tree" options="-parameters" />

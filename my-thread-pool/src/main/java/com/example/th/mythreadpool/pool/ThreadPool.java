@@ -16,7 +16,7 @@ public class ThreadPool {
         RejectedExecutionHandler handler = new ThreadPoolExecutor.AbortPolicy();
 
         ThreadPoolExecutor pool = new ThreadPoolExecutor(3,4,2, TimeUnit.SECONDS,queue,
-              handler);
+              new ThreadPoolExecutor.CallerRunsPolicy());
 
         pool.prestartAllCoreThreads();
 

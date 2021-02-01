@@ -35,8 +35,8 @@ public class print {
         printWriter.println(666);
         System.out.println("文件写入成功");
 
-        printWriter.close();
 
+        printWriter.close();
 
     }
 
