@@ -1,0 +1,58 @@
+package com.ba.my.myprovider2.redis;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.test.context.junit4.SpringRunner;
+
+/**
+ * @author SUNLLM
+ * @description
+ * @date 2021/2/1
+ */
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class SpringDataRedis {
+
+    private Logger log = LoggerFactory.getLogger(SpringDataRedis.class);
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+
+    @Test
+    public void contextLoads(){
+
+    }
+
+    @Test
+    public void testMethod(){
+        System.out.println("测试Spring Data Redis 开始：");
+        System.out.println("=============set 类型的操作====================");
+        redisTemplate.boundSetOps("set").add("周杰伦");
+        redisTemplate.boundSetOps("set").add("刘德华");
+        redisTemplate.boundSetOps("set").add("赛迪范儿");
+        System.out.println("set类型值输出："+redisTemplate.boundSetOps("set").members());
+        System.out.println("set类型值删除："+redisTemplate.delete("set"));
+        System.out.println("set类型删除后："+redisTemplate.boundSetOps("set").members());
+
+        System.out.println("=============String 类型的操作====================");
+        redisTemplate.boundValueOps("String").set("三国演义");
+        System.out.println("String 类型值输出："+ redisTemplate.boundValueOps("String").get());
+        System.out.println("String 类型值删除："+redisTemplate.delete("String"));
+        System.out.println("String 类型值删除后取值："+redisTemplate.boundValueOps("String").get());
+
+        System.out.println("=============List 类型的操作====================");
+        redisTemplate.boundListOps("List").leftPush("香奈儿");
+        redisTemplate.boundListOps("List").leftPush("酷奇");
+        redisTemplate.boundListOps("List").leftPush("阿玛尼");
+        System.out.println("List类型值输出："+redisTemplate.boundListOps("List").range(0,3));
+        System.out.println("List类型值删除："+redisTemplate.delete("List"));
+        System.out.println("List类型值删除后查询："+redisTemplate.boundListOps("List").range(0,0));
+
+    }
+
+}

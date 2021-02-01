@@ -11,14 +11,14 @@ import java.util.List;
  */
 public class MainRedis {
 
-    public static final String HOST = "192.168.130.0";
+    public static final String HOST = "9.1.8.95";
 
-    public static final int PORT = 6379;
+    public static final int PORT = 6301;
 
     public static void main(String[] args) {
 
         Jedis jedis = new Jedis(HOST, PORT);
-        jedis.auth("sun");
+        //jedis.auth("sun");
 
         String ping = jedis.ping();
         System.out.println(ping);

@@ -8,6 +8,10 @@ spring:
     password: root
     username: root
     url: jdbc:mysql://127.0.0.1:3306/sun
+  redis:
+    host: 9.1.8.95
+    port: 6301
+
 eureka:
   client:
     service-url:
