@@ -28,10 +28,28 @@ public class SpringDataRedis {
     @Test
     public void testRedis(){
 
-      log.debug("dfsafdasd========================================================= ");
+        System.out.println("测试Spring Data Redis 开始：");
+        System.out.println("=============set 类型的操作====================");
+        redisTemplate.boundSetOps("set").add("周杰伦");
+        redisTemplate.boundSetOps("set").add("刘德华");
+        redisTemplate.boundSetOps("set").add("赛迪范儿");
+        System.out.println("set类型值输出："+redisTemplate.boundSetOps("set").members());
+        System.out.println("set类型值删除："+redisTemplate.delete("set"));
+        System.out.println("set类型删除后："+redisTemplate.boundSetOps("set").members());
 
-        redisTemplate.boundValueOps("String").set("this is a test");
-        System.out.println(redisTemplate.boundValueOps("String").get());
+        System.out.println("=============String 类型的操作====================");
+        redisTemplate.boundValueOps("String").set("三国演义");
+        System.out.println("String 类型值输出："+ redisTemplate.boundValueOps("String").get());
+        System.out.println("String 类型值删除："+redisTemplate.delete("String"));
+        System.out.println("String 类型值删除后取值："+redisTemplate.boundValueOps("String").get());
+
+        System.out.println("=============List 类型的操作====================");
+        redisTemplate.boundListOps("List").leftPush("香奈儿");
+        redisTemplate.boundListOps("List").leftPush("酷奇");
+        redisTemplate.boundListOps("List").leftPush("阿玛尼");
+        System.out.println("List类型值输出："+redisTemplate.boundListOps("List").range(0,3));
+        System.out.println("List类型值删除："+redisTemplate.delete("List"));
+        System.out.println("List类型值删除后查询："+redisTemplate.boundListOps("List").range(0,0));
 
     }
 }
