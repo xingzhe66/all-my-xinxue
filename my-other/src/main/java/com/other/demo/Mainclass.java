@@ -5,9 +5,9 @@ public class Mainclass {
     public static void main(String[] args) {
 
          // 1.双心
-       // heartTwo(15,0.9,"V","I","U");
+        heartTwo(15,0.9,"V","I","U");
         // 2. 单个心
-        System.out.println(callBack("*"));
+       // System.out.println(callBack("*"));
     }
 
 

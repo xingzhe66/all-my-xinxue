@@ -15,15 +15,15 @@ public class ThreadPool {
         // 拒绝策略
         RejectedExecutionHandler handler = new ThreadPoolExecutor.AbortPolicy();
 
-        ThreadPoolExecutor pool = new ThreadPoolExecutor(10,12,2, TimeUnit.SECONDS,queue,
-              handler);
+        ThreadPoolExecutor pool = new ThreadPoolExecutor(3,4,2, TimeUnit.SECONDS,queue,
+              new ThreadPoolExecutor.CallerRunsPolicy());
 
         pool.prestartAllCoreThreads();
 
         // 开启任务,开启十个需要执行的线程任务（每个都是种10颗树），放入线程池
         for (int i = 0; i < 10; i++) {
 
-            TreeThread th = new TreeThread(i);
+            TreeThread th = new TreeThread();
             pool.execute(th);
         }
 

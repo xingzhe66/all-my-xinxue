@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/my-tree/pom.xml" />
         <option value="$PROJECT_DIR$/my-json/pom.xml" />
         <option value="$PROJECT_DIR$/my-other/pom.xml" />
+        <option value="$PROJECT_DIR$/my-redis/pom.xml" />
       </list>
     </option>
   </component>
