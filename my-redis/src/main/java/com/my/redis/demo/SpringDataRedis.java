@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
@@ -22,8 +23,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SpringDataRedis {
 
     Logger log = LoggerFactory.getLogger(SpringDataRedis.class);
+
+    // springDataRedis是在jedis之上的一种对redis操作的工具类，
+    // 包装更加完整，也是当前比较流行的一种使用方式
     @Autowired
     private RedisTemplate redisTemplate;
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
 
     @Test
     public void testRedis(){
