@@ -17,6 +17,7 @@
         <module name="demo (2) (com.provider.my)" />
         <module name="demo (3) (com.my.readxml)" />
         <module name="my-consumer" />
+        <module name="my-docker" />
         <module name="my-eureka" />
         <module name="my-gateway" />
         <module name="my-io" />
@@ -30,6 +31,7 @@
         <module name="my-readxml" />
         <module name="my-redis" />
         <module name="my-socket" />
+        <module name="my-test" />
         <module name="my-thread-pool" />
         <module name="my-tree" />
       </profile>
@@ -43,6 +45,7 @@
       <module name="demo (2) (com.provider.my)" options="-parameters" />
       <module name="demo (3) (com.my.readxml)" options="-parameters" />
       <module name="my-consumer" options="-parameters" />
+      <module name="my-docker" options="-parameters" />
       <module name="my-eureka" options="-parameters" />
       <module name="my-gateway" options="-parameters" />
       <module name="my-io" options="-parameters" />
@@ -56,6 +59,7 @@
       <module name="my-readxml" options="-parameters" />
       <module name="my-redis" options="-parameters" />
       <module name="my-socket" options="-parameters" />
+      <module name="my-test" options="-parameters" />
       <module name="my-thread-pool" options="-parameters" />
       <module name="my-tree" options="-parameters" />
     </option>

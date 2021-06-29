@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="089ca882-46bd-4de6-9f9a-53042616998d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-docker/src/main/java/com/my/docker/mydocker/ControllerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-test/src/main/java/test1/MainClas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-provider-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-provider-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/bs/InforService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/bs/InforService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-provider-1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-provider-1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-io/src/main/java/com/file/io/cn/myio/io/print.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-io/src/main/java/com/file/io/cn/myio/io/print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/ThreadPool.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,6 +32,8 @@
     <ignored path="$PROJECT_DIR$/my-json/target/" />
     <ignored path="$PROJECT_DIR$/my-other/target/" />
     <ignored path="$PROJECT_DIR$/my-redis/target/" />
+    <ignored path="$PROJECT_DIR$/my-docker/target/" />
+    <ignored path="$PROJECT_DIR$/my-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,68 +46,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/dao/MyDaoSupport.java">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/TicketThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-              <folding>
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/bs/InforService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/testRedis/MainRedis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/MyProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/dao/UserInfoMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            <state relative-caret-position="372">
+              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,19 +58,92 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-redis/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="525">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/JedisTest.java">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="197">
+              <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+              <folding>
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/ThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/TreeThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/MyThreadPoolApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/bs/InforService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/dao/MyDaoSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -147,6 +168,8 @@
       <find>slf4j</find>
       <find>valueOps</find>
       <find>setOps</find>
+      <find>size</find>
+      <find>sleep</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -164,20 +187,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/my-gateway/src/main/java/com/my/gatew/mygateway/MyGatewayApplication.java" />
-        <option value="$PROJECT_DIR$/my-gateway/src/main/java/control/FallbackClass.java" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/bc/Handler.java" />
-        <option value="$PROJECT_DIR$/my-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/my-socket/pom.xml" />
         <option value="$PROJECT_DIR$/my-socket/src/main/java/com/socket/cn/mysocket/socket/SocketClass.java" />
         <option value="$PROJECT_DIR$/my-socket/src/main/java/com/socket/cn/mysocket/socket/SocketClient.java" />
         <option value="$PROJECT_DIR$/my-socket/src/main/java/com/socket/cn/mysocket/socket/ServerSocketClass.java" />
-        <option value="$PROJECT_DIR$/my-io/src/main/java/com/file/io/cn/myio/io/print.java" />
         <option value="$PROJECT_DIR$/my-io/src/main/java/com/file/io/cn/myio/io/FileClass.java" />
         <option value="$PROJECT_DIR$/my-tree/pom.xml" />
-        <option value="$PROJECT_DIR$/my-tree/src/main/java/com/my/tree/mytree/SimpleTree.java" />
         <option value="$PROJECT_DIR$/my-tree/src/main/java/com/my/tree/mytree/MainClass.java" />
         <option value="$PROJECT_DIR$/my-json/pom.xml" />
         <option value="$PROJECT_DIR$/my-json/src/main/java/com/my/json/BookType.java" />
@@ -197,9 +211,7 @@
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/shaizi/ThreadA.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/shaizi/MainClass.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/shaizi/PanZi.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/MainClass.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/TreeThread.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/ThreadPool.java" />
         <option value="$PROJECT_DIR$/my-provider-2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/testRedis/MainRedis.java" />
         <option value="$PROJECT_DIR$/my-provider-2/src/main/resources/log4j.yml" />
@@ -215,14 +227,25 @@
         <option value="$PROJECT_DIR$/my-provider-1/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/bs/InforService.java" />
         <option value="$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java" />
+        <option value="$PROJECT_DIR$/my-docker/src/main/java/com/my/docker/mydocker/ControllerClass.java" />
+        <option value="$PROJECT_DIR$/my-docker/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/my-io/src/main/java/com/file/io/cn/myio/io/print.java" />
+        <option value="$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/bc/Handler.java" />
+        <option value="$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/MyConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/my-tree/src/main/java/com/my/tree/mytree/SimpleTree.java" />
+        <option value="$PROJECT_DIR$/my-test/src/main/java/test1/MainClas.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookThread.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/MainClass.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookMain.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/soft/apache-maven-3.1.1" />
-        <option name="userSettingsFile" value="D:\soft\apache-maven-3.1.1\conf\sun_settings.xml" />
+        <option name="mavenHome" value="D:/soft/apache-maven-3.1.1/apache-maven-3.1.1" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.1.1\apache-maven-3.1.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -236,16 +259,28 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-provider-2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="my-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-provider-2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="my-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="my-docker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="my-docker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="60" />
@@ -261,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,88 +306,25 @@
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="bc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="bs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -361,147 +332,71 @@
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="runnable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="bc" type="462c0819:PsiDirectoryNode" />
+              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="saleEggThread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="bs" type="462c0819:PsiDirectoryNode" />
+              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="shaizi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="tongXun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
+              <item name="my-thread-pool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-provider-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mythreadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="MainClass.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
@@ -511,25 +406,13 @@
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework.data:spring-data-redis:2.3.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.3.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.3.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.3.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.3.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,7 +423,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613567538193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624975427499" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/my-provider-2/src/main/resources/log4j.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -577,13 +460,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyProviderApplication (1)">
-    <configuration name="Publiser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="publisher.Publiser" />
-      <module name="my-redis" />
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.th.mythreadpool.runnable.BookMain" />
+      <module name="my-thread-pool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="publisher.*" />
+          <option name="PATTERN" value="com.example.th.mythreadpool.runnable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -591,12 +474,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisSubscribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="publisher.RedisSubscribe" />
-      <module name="my-redis" />
+    <configuration name="MainClas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1.MainClas" />
+      <module name="my-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="publisher.*" />
+          <option name="PATTERN" value="test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -604,18 +487,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDataRedis.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-redis" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.th.mythreadpool.MainClass" />
+      <module name="my-thread-pool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.redis.demo.*" />
+          <option name="PATTERN" value="com.example.th.mythreadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.my.redis.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.my.redis.demo.SpringDataRedis" />
-      <option name="METHOD_NAME" value="testRedis" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.th.mythreadpool.pool.ThreadPool" />
+      <module name="my-thread-pool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.th.mythreadpool.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.file.io.cn.myio.io.print" />
+      <module name="my-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.file.io.cn.myio.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -641,22 +547,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo (1) (com.consum.test)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.consum.test.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MyConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.consum.test.demo.MyConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="my-consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.consum.test.demo.MyConsumerApplication" />
+    <configuration name="MyDockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-docker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.docker.mydocker.MyDockerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -717,19 +617,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo (2) (com.provider.my)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.provider.my.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.provider.my.MyProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="my-provider-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.provider.my.MyProviderApplication" />
@@ -765,6 +652,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sun.test.mytest.MyTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyThreadPoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="my-thread-pool" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.th.mythreadpool.MyThreadPoolApplication" />
@@ -781,11 +675,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MyProviderApplication (1)" />
-        <item itemvalue="Spring Boot.MyConsumerApplication (1)" />
-        <item itemvalue="Application.Publiser" />
-        <item itemvalue="Application.RedisSubscribe" />
-        <item itemvalue="JUnit.SpringDataRedis.testRedis" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.BookMain" />
+        <item itemvalue="Application.MainClas" />
+        <item itemvalue="Application.print" />
+        <item itemvalue="Application.ThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -842,6 +736,31 @@
       <workItem from="1612226209735" duration="327000" />
       <workItem from="1612704743080" duration="1402000" />
       <workItem from="1613562422210" duration="5763000" />
+      <workItem from="1613746135254" duration="241000" />
+      <workItem from="1619229467151" duration="1505000" />
+      <workItem from="1619231015530" duration="414000" />
+      <workItem from="1619231466141" duration="1267000" />
+      <workItem from="1620657674349" duration="1156000" />
+      <workItem from="1620741819375" duration="1147000" />
+      <workItem from="1620826048386" duration="1406000" />
+      <workItem from="1621436464186" duration="1154000" />
+      <workItem from="1621865810197" duration="3454000" />
+      <workItem from="1622465210475" duration="1172000" />
+      <workItem from="1622547065309" duration="596000" />
+      <workItem from="1622642493748" duration="3102000" />
+      <workItem from="1623070046292" duration="2282000" />
+      <workItem from="1623158851143" duration="609000" />
+      <workItem from="1623585062980" duration="608000" />
+      <workItem from="1623629907041" duration="2429000" />
+      <workItem from="1623767790016" duration="937000" />
+      <workItem from="1623940963131" duration="959000" />
+      <workItem from="1624066469721" duration="2384000" />
+      <workItem from="1624090615386" duration="4822000" />
+      <workItem from="1624282237428" duration="1706000" />
+      <workItem from="1624363910322" duration="6646000" />
+      <workItem from="1624453871891" duration="3805000" />
+      <workItem from="1624539674511" duration="1340000" />
+      <workItem from="1624969615888" duration="5685000" />
     </task>
     <task id="LOCAL-00001" summary="#技术整理">
       <created>1598000767199</created>
@@ -1053,7 +972,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612620946528</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="#redis 缓存的使用">
+      <created>1613746187393</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1613746187393</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1089,7 +1015,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197967000" />
+    <option name="totallyTimeSpent" value="248793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1104,7 +1030,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774775" visible="true" weight="0.13965885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774775" visible="true" weight="0.1380597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1114,8 +1040,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52819955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5943601" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34056398" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44034708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -1123,17 +1049,17 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3275488" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286119" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24932976" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.22654155" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.2260128" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1210,7 +1136,20 @@
     <MESSAGE value="#socke文件操作提交" />
     <MESSAGE value="#json操作" />
     <MESSAGE value="#redis 发布者和订阅者" />
-    <option name="LAST_COMMIT_MESSAGE" value="#redis 发布者和订阅者" />
+    <MESSAGE value="#redis 缓存的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="#redis 缓存的使用" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java</url>
+          <line>193</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1218,6 +1157,31 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elementData</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>size == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>EMPTY_ELEMENTDATA</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elementData.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>this.writeArray((Collection)o)</expression-string>
         <language-id>JAVA</language-id>
@@ -1238,289 +1202,56 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>t.getClass()+&quot;.selectAll&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>t.getClass()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>t.getClass()+&quot;.selectAll</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>inforService.getInfo(u1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>iService.getUserInfo()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/shaizi/PanZi.java">
+    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/inter/IGetInfor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/shaizi/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/TreeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/redis.java" />
-    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/resources/mappers/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://E:/sun_maven_jar/junit/junit/4.13/junit-4.13.jar!/org/junit/runners/model/FrameworkMethod.class" />
-    <entry file="jar://E:/sun_maven_jar/junit/junit/4.13/junit-4.13.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/resources/log4j.yml" />
-    <entry file="jar://E:/sun_maven_jar/io/github/openfeign/feign-slf4j/10.10.1/feign-slf4j-10.10.1.jar!/feign/slf4j/Slf4jLogger.class" />
-    <entry file="jar://E:/sun_maven_jar/org/springframework/data/spring-data-redis/2.3.4.RELEASE/spring-data-redis-2.3.4.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class" />
-    <entry file="jar://E:/sun_maven_jar/org/springframework/data/spring-data-redis/2.3.4.RELEASE/spring-data-redis-2.3.4.RELEASE.jar!/org/springframework/data/redis/core/BoundListOperations.class" />
-    <entry file="jar://E:/sun_maven_jar/org/springframework/data/spring-data-redis/2.3.4.RELEASE/spring-data-redis-2.3.4.RELEASE.jar!/org/springframework/data/redis/core/DefaultBoundListOperations.class" />
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/redis/SpringDataRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-lambda/src/main/java/com/example/lam/mylambda/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_jar/com/yugabyte/jedis/2.9.0-yb-5/jedis-2.9.0-yb-5.jar!/redis/clients/jedis/JedisCommands.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2825">
-          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/maven_jar/org/springframework/boot/spring-boot-starter-parent/2.4.2/spring-boot-starter-parent-2.4.2.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/bc/HandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/bs/InforService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/bc/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/bs/GetBookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/service/IService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/MyProvider2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/po/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-eureka/src/main/java/com/eureka/myeureka/MyEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="24" />
           <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/MyConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/my-socket/src/main/java/com/socket/cn/mysocket/socket/SocketClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="300">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/resources/application.yml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/IGetBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/publisher/Publiser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/publisher/RedisSubscribe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="5300">
+          <caret line="254" column="18" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#9664#9665#0" expanded="true" />
+            <element signature="e#9710#9711#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/JedisPoolTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="5325">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/DemoApplication.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_jar/org/springframework/data/spring-data-redis/2.3.5.RELEASE/spring-data-redis-2.3.5.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/dao/UserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/testRedis/MainRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="30100">
+          <caret line="1261" column="44" selection-start-line="1261" selection-start-column="44" selection-end-line="1261" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1531,59 +1262,340 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/bc/HandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/dao/MyDaoSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="850">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
           <folding>
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/JedisPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        <state relative-caret-position="750">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-io/src/main/java/com/file/io/cn/myio/io/print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar!/org/apache/ibatis/ognl/IntHashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="188" column="16" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/springframework/data/spring-data-redis/2.3.5.RELEASE/spring-data-redis-2.3.5.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="390" column="14" lean-forward="true" selection-start-line="390" selection-start-column="14" selection-end-line="390" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2300">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="381" column="31" selection-start-line="381" selection-start-column="31" selection-end-line="381" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78450">
+          <caret line="3209" column="33" selection-start-line="3209" selection-start-column="32" selection-end-line="3209" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13875">
+          <caret line="600" column="28" selection-start-line="600" selection-start-column="28" selection-end-line="600" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/springframework/cloud/spring-cloud-commons/2.2.5.RELEASE/spring-cloud-commons-2.2.5.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/SpringBootConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/MyProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/MyConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-eureka/src/main/java/com/eureka/myeureka/MyEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/IGetBook.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/bs/InforService.java">
+    <entry file="file://$PROJECT_DIR$/my-test/src/main/java/com/sun/test/mytest/MyTestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java">
+    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/bc/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        <state relative-caret-position="425">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/ResponseBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_jar/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-tree/src/main/java/com/my/tree/mytree/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-test/src/main/java/test1/MainClas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+          <folding>
+            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/myprovider2/MyProvider2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-io/src/main/java/com/file/io/cn/myio/io/FileClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-tree/src/main/java/com/my/tree/mytree/MyTreeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-tree/src/main/java/com/my/tree/mytree/SimpleTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-consumer/target/demo-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/AbstractJarFile.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/dao/MyDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-provider-2/src/main/java/com/ba/my/myprovider2/bs/InforService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/TreeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/MyThreadPoolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/TicketThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/pool/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/runnable/BookMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>

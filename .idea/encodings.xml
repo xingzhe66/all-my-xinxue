@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/my-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-docker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-io" charset="UTF-8" />
@@ -14,6 +15,7 @@
     <file url="file://$PROJECT_DIR$/my-readxml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-socket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-thread-pool" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-tree" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
