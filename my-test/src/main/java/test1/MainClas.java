@@ -13,9 +13,18 @@ import java.util.*;
  **/
 public class MainClas {
     public static void main(String[] args) {
+        Book b = new Book("葵花宝鉴");
+
+        System.out.println("origal:"+b.hashCode()+"=="+b.toString());
+
+        Book clone = b.clone();
+        System.out.println("clone:"+clone.hashCode()+"=="+clone.toString());
+
 
     }
-
 }
+
+
+
 
 

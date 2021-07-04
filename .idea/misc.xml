@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/my-redis/pom.xml" />
         <option value="$PROJECT_DIR$/my-docker/pom.xml" />
         <option value="$PROJECT_DIR$/my-test/pom.xml" />
+        <option value="$PROJECT_DIR$/my-link/pom.xml" />
       </list>
     </option>
   </component>
