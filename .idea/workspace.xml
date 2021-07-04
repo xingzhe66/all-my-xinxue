@@ -2,46 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="089ca882-46bd-4de6-9f9a-53042616998d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-aop/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MyAopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/src/test/java/com/my/aop/myaop/MyAopApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/src/main/java/com/my/docker/mydocker/MyDockerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-docker/src/test/java/com/my/docker/mydocker/MyDockerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/src/main/java/com/sun/test/mytest/MyTestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/src/main/java/test1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-test/src/test/java/com/sun/test/mytest/MyTestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-test/src/main/java/test1/MainClas.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-test/src/main/java/test1/MainClas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,98 +46,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Node.java">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="250">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink.java">
+        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/PersonMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="350">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="1154" column="23" lean-forward="true" selection-start-line="1154" selection-start-column="23" selection-end-line="1154" selection-end-column="23" />
+            <state relative-caret-position="208">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
-                <element signature="e#5687#5688#0" expanded="true" />
-                <element signature="e#5750#5751#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/WinNTFileSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="440" selection-start-line="440" selection-end-line="440" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="617" selection-start-line="617" selection-end-line="617" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runtime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="870" selection-start-line="870" selection-end-line="870" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="1122" selection-start-line="1122" selection-end-line="1122" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java">
+        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="183">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java">
+        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="275">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MyAopApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
-                <element signature="e#732#733#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-aop/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -212,17 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-tree/src/main/java/com/my/tree/mytree/MainClass.java" />
-        <option value="$PROJECT_DIR$/my-json/pom.xml" />
-        <option value="$PROJECT_DIR$/my-json/src/main/java/com/my/json/BookType.java" />
-        <option value="$PROJECT_DIR$/my-json/src/main/java/com/my/json/MyJsonApplication.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/Book.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ConsumeBook.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/PraviderBook.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/MainClass.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/tongXun/ShuJia.java" />
-        <option value="$PROJECT_DIR$/my-other/src/main/java/com/other/demo/Mainclass.java" />
-        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/saleEggThread/Egg.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/saleEggThread/MainEgg.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/saleEggThread/ProviderEgg.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/saleEggThread/ConsumeEgg.java" />
@@ -263,6 +226,17 @@
         <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Node.java" />
         <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java" />
         <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadLocal.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Thread1.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Person.java" />
+        <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/PersonMain.java" />
+        <option value="$PROJECT_DIR$/my-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MainClass.java" />
+        <option value="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java" />
+        <option value="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java" />
+        <option value="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AppConfig.java" />
+        <option value="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java" />
+        <option value="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java" />
       </list>
     </option>
   </component>
@@ -281,26 +255,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-docker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-docker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -321,7 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,37 +287,37 @@
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-link" type="462c0819:PsiDirectoryNode" />
+              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-link" type="462c0819:PsiDirectoryNode" />
+              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-link" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-link" type="462c0819:PsiDirectoryNode" />
+              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-link" type="462c0819:PsiDirectoryNode" />
+              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mylink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
+              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myaop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +332,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +343,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625366540904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625386332006" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/my-provider-2/src/main/resources/log4j.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -425,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainLink2">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="Link" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.link.mylink.Link" />
       <module name="my-link" />
@@ -439,25 +394,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.MainClas" />
-      <module name="my-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.th.mythreadpool.MainClass" />
-      <module name="my-thread-pool" />
+      <option name="MAIN_CLASS_NAME" value="com.my.aop.myaop.MainClass" />
+      <module name="all-technology" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.th.mythreadpool.*" />
+          <option name="PATTERN" value="com.my.aop.myaop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -484,6 +426,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.link.mylink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.th.mythreadpool.threadlocal.PersonMain" />
+      <module name="my-thread-pool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.th.mythreadpool.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -647,11 +602,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.PersonMain" />
         <item itemvalue="Application.MainLink2" />
         <item itemvalue="Application.Link" />
         <item itemvalue="Application.MainLink" />
-        <item itemvalue="Application.MainClas" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -736,7 +691,8 @@
       <workItem from="1625145637718" duration="3932000" />
       <workItem from="1625283247595" duration="2666000" />
       <workItem from="1625306725905" duration="4802000" />
-      <workItem from="1625361353042" duration="4816000" />
+      <workItem from="1625361353042" duration="7816000" />
+      <workItem from="1625384899287" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="#技术整理">
       <created>1598000767199</created>
@@ -962,7 +918,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624975478064</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="#redis 缓存的使用">
+      <created>1625366603708</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1625366603708</updated>
+    </task>
+    <task id="LOCAL-00034" summary="#redis 缓存的使用">
+      <created>1625370639682</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1625370639682</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -998,7 +968,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265710000" />
+    <option name="totallyTimeSpent" value="270052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1013,7 +983,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.1444563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1024,7 +994,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34056398" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4370933" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36767897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -1042,7 +1012,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.2260128" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.2260128" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1188,84 +1158,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13875">
-          <caret line="600" column="28" selection-start-line="600" selection-start-column="28" selection-end-line="600" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_jar/org/springframework/cloud/spring-cloud-commons/2.2.5.RELEASE/spring-cloud-commons-2.2.5.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_jar/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/org/springframework/boot/SpringBootConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-provider-1/src/main/java/com/provider/my/MyProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/MyConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-eureka/src/main/java/com/eureka/myeureka/MyEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/IGetBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-test/src/main/java/com/sun/test/mytest/MyTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-consumer/src/main/java/com/consum/test/demo/bc/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_jar/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/maven_jar/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/ResponseBody.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1442,20 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-docker/src/main/java/com/my/docker/mydocker/ControllerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1561,20 +1439,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadLocal.java" />
     <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="471">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding>
+            <element signature="e#705#706#0" expanded="true" />
             <element signature="e#732#733#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java">
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Thread1.java" />
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="250">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/PersonMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MyAopApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-aop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
