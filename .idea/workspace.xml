@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="089ca882-46bd-4de6-9f9a-53042616998d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,103 +38,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Person.java">
+        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/publisher/RedisSubscribe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/PersonMain.java">
+        <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/publisher/Publiser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java">
+        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="647">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqConsumer.java">
+        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-mq/src/main/java/com/my/mq/mymq/activemq/MqProvider.java">
+        <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/MyAopApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-aop/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="800">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -224,7 +184,6 @@
         <option value="$PROJECT_DIR$/my-test/src/main/java/test1/Book.java" />
         <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink.java" />
         <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Node.java" />
-        <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java" />
         <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadLocal.java" />
         <option value="$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Thread1.java" />
@@ -237,6 +196,7 @@
         <option value="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AppConfig.java" />
         <option value="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java" />
         <option value="$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java" />
+        <option value="$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java" />
       </list>
     </option>
   </component>
@@ -276,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,54 +243,11 @@
               <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
               <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-my-xinxue" type="462c0819:PsiDirectoryNode" />
-              <item name="my-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myaop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="all-my-xinxue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.3.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -343,7 +259,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625386332006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625753697381" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/my-provider-2/src/main/resources/log4j.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -692,7 +608,9 @@
       <workItem from="1625283247595" duration="2666000" />
       <workItem from="1625306725905" duration="4802000" />
       <workItem from="1625361353042" duration="7816000" />
-      <workItem from="1625384899287" duration="1342000" />
+      <workItem from="1625384899287" duration="3231000" />
+      <workItem from="1625490812666" duration="911000" />
+      <workItem from="1625753315136" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="#技术整理">
       <created>1598000767199</created>
@@ -932,7 +850,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625370639682</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="#redis 缓存的使用">
+      <created>1625386415208</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1625386415208</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -968,7 +893,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270052000" />
+    <option name="totallyTimeSpent" value="273233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,9 +906,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.14605543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -994,7 +918,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34056398" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36767897" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36767897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -1012,7 +936,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.2260128" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.2260128" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1158,20 +1082,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/maven_jar/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/ResponseBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_jar/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/maven_jar/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1355,16 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1425,39 +1325,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadLocal.java" />
-    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Thread1.java" />
     <entry file="file://$PROJECT_DIR$/my-thread-pool/src/main/java/com/example/th/mythreadpool/threadlocal/Person.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1520,24 +1388,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="358">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-aop/src/main/java/com/my/aop/myaop/AspectClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="172">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/com/my/redis/demo/SpringDataRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/publisher/RedisSubscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-redis/src/main/java/publisher/Publiser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-link/src/main/java/com/my/link/mylink/MainLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
