@@ -31,9 +31,12 @@ public class SpringDataRedis {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
+
     @Test
     public void testRedis(){
 
+
+        log.debug("=================SpringdataRedis测试开始==================");
         System.out.println("测试Spring Data Redis 开始：");
         System.out.println("=============set 类型的操作====================");
         redisTemplate.boundSetOps("set").add("周杰伦");
@@ -56,6 +59,7 @@ public class SpringDataRedis {
         System.out.println("List类型值输出："+redisTemplate.boundListOps("List").range(0,3));
         System.out.println("List类型值删除："+redisTemplate.delete("List"));
         System.out.println("List类型值删除后查询："+redisTemplate.boundListOps("List").range(0,0));
+        log.debug("=================SpringdataRedis测试结束==================");
 
     }
 }

@@ -34,6 +34,5 @@ public class MainClass2 {
 //
 //        System.out.println(collect2);
 
-
     }
 }

@@ -37,6 +37,11 @@
         <module name="my-tree" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-linked" target="1.7" />
+      <module name="my-regex" target="1.7" />
+      <module name="my-regular" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -60,6 +65,7 @@
       <module name="my-proxy" options="-parameters" />
       <module name="my-readxml" options="-parameters" />
       <module name="my-redis" options="-parameters" />
+      <module name="my-regular" options="-parameters" />
       <module name="my-socket" options="-parameters" />
       <module name="my-test" options="-parameters" />
       <module name="my-thread-pool" options="-parameters" />
